@@ -1,0 +1,49 @@
+﻿  main.cpp
+  VectorDinamicCPP.vcxproj -> C:\Users\Oana\Desktop\VectorDinamicCPP\x64\Debug\VectorDinamicCPP.exe
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectorDinamic.h(75): warning C26432: If you define or delete any default operation in the type 'class VectorDinamic<class Pet>', define or delete them all (c.21).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectorDinamic.h(81): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectorDinamic.h(50): warning C26455: Default constructor should not throw. Declare it 'noexcept' (f.6).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectorDinamic.h(51): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectorDinamic.h(107): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectorDinamic.h(144): warning C26440: Function 'VectorDinamic<Pet>::get' can be declared 'noexcept' (f.6).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectorDinamic.h(147): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectorDinamic.h(158): warning C26440: Function 'VectorDinamic<Pet>::size' can be declared 'noexcept' (f.6).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectorDinamic.h(165): warning C26440: Function 'VectorDinamic<Pet>::begin' can be declared 'noexcept' (f.6).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectorDinamic.h(169): warning C26440: Function 'VectorDinamic<Pet>::end' can be declared 'noexcept' (f.6).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectorDinamic.h(118): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectorDinamic.h(118): warning C26400: Do not assign the result of an allocation or a function call with an owner<T> return value to a raw pointer, use owner<T> instead (i.11).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectorDinamic.h(117): warning C26496: The variable 'newCapacity' does not change after construction, mark it as const (con.4).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectorDinamic.h(185): warning C26440: Function 'IteratorVector<Pet>::element' can be declared 'noexcept' (f.6).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectorDinamic.h(186): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectorDinamic.h(189): warning C26440: Function 'IteratorVector<Pet>::next' can be declared 'noexcept' (f.6).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectDinNewDelete.cpp(8): warning C26455: Default constructor should not throw. Declare it 'noexcept' (f.6).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectDinNewDelete.cpp(8): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectDinNewDelete.cpp(17): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectDinNewDelete.cpp(37): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectDinNewDelete.cpp(60): warning C26439: This kind of function should not throw. Declare it 'noexcept' (f.6).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectDinNewDelete.cpp(81): warning C26439: This kind of function should not throw. Declare it 'noexcept' (f.6).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectDinNewDelete.cpp(104): warning C26440: Function 'VectDinNewDelete::get' can be declared 'noexcept' (f.6).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectDinNewDelete.cpp(105): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectDinNewDelete.cpp(121): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectDinNewDelete.cpp(121): warning C26400: Do not assign the result of an allocation or a function call with an owner<T> return value to a raw pointer, use owner<T> instead (i.11).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectDinNewDelete.cpp(130): warning C26440: Function 'VectDinNewDelete::begin' can be declared 'noexcept' (f.6).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectDinNewDelete.cpp(135): warning C26440: Function 'VectDinNewDelete::end' can be declared 'noexcept' (f.6).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectDinNewDelete.cpp(148): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectDinNewDelete.cpp(153): warning C26440: Function 'IteratorVector::operator*' can be declared 'noexcept' (f.6).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectDinNewDelete.cpp(156): warning C26440: Function 'IteratorVector::operator++' can be declared 'noexcept' (f.6).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectDinSmartPointer.cpp(8): warning C26455: Default constructor should not throw. Declare it 'noexcept' (f.6).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectDinSmartPointer.cpp(13): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectDinSmartPointer.cpp(13): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectDinSmartPointer.cpp(23): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectDinSmartPointer.cpp(23): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectDinSmartPointer.cpp(32): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectDinSmartPointer.cpp(36): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectDinSmartPointer.cpp(35): warning C26440: Function 'VectDinSmartPointer::get' can be declared 'noexcept' (f.6).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectDinSmartPointer.cpp(40): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectDinSmartPointer.cpp(54): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectDinSmartPointer.cpp(54): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectDinSmartPointer.cpp(61): warning C26440: Function 'VectDinSmartPointer::begin' can be declared 'noexcept' (f.6).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectDinSmartPointer.cpp(66): warning C26440: Function 'VectDinSmartPointer::end' can be declared 'noexcept' (f.6).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectDinSmartPointer.cpp(79): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectDinSmartPointer.cpp(84): warning C26440: Function 'IteratorVectorSP::operator*' can be declared 'noexcept' (f.6).
+C:\Users\Oana\Desktop\VectorDinamicCPP\VectorDinamicCPP\VectDinSmartPointer.cpp(87): warning C26440: Function 'IteratorVectorSP::operator++' can be declared 'noexcept' (f.6).

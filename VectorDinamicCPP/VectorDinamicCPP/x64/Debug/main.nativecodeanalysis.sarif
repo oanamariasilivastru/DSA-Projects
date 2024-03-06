@@ -1,0 +1,495 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class VectorDinamic<class Pet>', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Oana/Desktop/VectorDinamicCPP/VectorDinamicCPP/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 75,
+                  "startColumn": 19,
+                  "endLine": 75,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VectorDinamic<Pet>::{ctor}",
+                  "decoratedName": "??0?$VectorDinamic@VPet@@@@QEAA@AEBV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26409",
+          "message": {
+            "text": "Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Oana/Desktop/VectorDinamicCPP/VectorDinamicCPP/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 81,
+                  "startColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VectorDinamic<Pet>::{ctor}",
+                  "decoratedName": "??0?$VectorDinamic@VPet@@@@QEAA@AEBV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26455",
+          "message": {
+            "text": "Default constructor should not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Oana/Desktop/VectorDinamicCPP/VectorDinamicCPP/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 19,
+                  "endLine": 50,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VectorDinamic<Pet>::{ctor}",
+                  "decoratedName": "??0?$VectorDinamic@VPet@@@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26409",
+          "message": {
+            "text": "Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Oana/Desktop/VectorDinamicCPP/VectorDinamicCPP/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 51,
+                  "startColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VectorDinamic<Pet>::{ctor}",
+                  "decoratedName": "??0?$VectorDinamic@VPet@@@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26409",
+          "message": {
+            "text": "Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Oana/Desktop/VectorDinamicCPP/VectorDinamicCPP/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 107,
+                  "startColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VectorDinamic<Pet>::=",
+                  "decoratedName": "??4?$VectorDinamic@VPet@@@@QEAAAEAV0@AEBV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'VectorDinamic<Pet>::get' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Oana/Desktop/VectorDinamicCPP/VectorDinamicCPP/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 144,
+                  "startColumn": 22,
+                  "endLine": 144,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VectorDinamic<Pet>::get",
+                  "decoratedName": "?get@?$VectorDinamic@VPet@@@@QEAAAEAVPet@@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Don't use pointer arithmetic. Use span instead (bounds.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Oana/Desktop/VectorDinamicCPP/VectorDinamicCPP/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 147,
+                  "startColumn": 2,
+                  "endLine": 147,
+                  "endColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VectorDinamic<Pet>::get",
+                  "decoratedName": "?get@?$VectorDinamic@VPet@@@@QEAAAEAVPet@@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'VectorDinamic<Pet>::size' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Oana/Desktop/VectorDinamicCPP/VectorDinamicCPP/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 158,
+                  "startColumn": 23,
+                  "endLine": 158,
+                  "endColumn": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VectorDinamic<Pet>::size",
+                  "decoratedName": "?size@?$VectorDinamic@VPet@@@@QEAAHXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'VectorDinamic<Pet>::begin' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Oana/Desktop/VectorDinamicCPP/VectorDinamicCPP/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 165,
+                  "startColumn": 37,
+                  "endLine": 165,
+                  "endColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VectorDinamic<Pet>::begin",
+                  "decoratedName": "?begin@?$VectorDinamic@VPet@@@@QEAA?AV?$IteratorVector@VPet@@@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'VectorDinamic<Pet>::end' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Oana/Desktop/VectorDinamicCPP/VectorDinamicCPP/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 169,
+                  "startColumn": 37,
+                  "endLine": 169,
+                  "endColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VectorDinamic<Pet>::end",
+                  "decoratedName": "?end@?$VectorDinamic@VPet@@@@QEAA?AV?$IteratorVector@VPet@@@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26409",
+          "message": {
+            "text": "Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Oana/Desktop/VectorDinamicCPP/VectorDinamicCPP/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 118,
+                  "startColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VectorDinamic<Pet>::resize",
+                  "decoratedName": "?resize@?$VectorDinamic@VPet@@@@AEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26400",
+          "message": {
+            "text": "Do not assign the result of an allocation or a function call with an owner<T> return value to a raw pointer, use owner<T> instead (i.11)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Oana/Desktop/VectorDinamicCPP/VectorDinamicCPP/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 118,
+                  "startColumn": 16,
+                  "endLine": 118,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VectorDinamic<Pet>::resize",
+                  "decoratedName": "?resize@?$VectorDinamic@VPet@@@@AEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'newCapacity' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Oana/Desktop/VectorDinamicCPP/VectorDinamicCPP/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 117,
+                  "startColumn": 6,
+                  "endLine": 117,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VectorDinamic<Pet>::resize",
+                  "decoratedName": "?resize@?$VectorDinamic@VPet@@@@AEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'IteratorVector<Pet>::element' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Oana/Desktop/VectorDinamicCPP/VectorDinamicCPP/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 185,
+                  "startColumn": 23,
+                  "endLine": 185,
+                  "endColumn": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IteratorVector<Pet>::element",
+                  "decoratedName": "?element@?$IteratorVector@VPet@@@@QEBAAEAVPet@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Don't use pointer arithmetic. Use span instead (bounds.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Oana/Desktop/VectorDinamicCPP/VectorDinamicCPP/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 186,
+                  "startColumn": 2,
+                  "endLine": 186,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IteratorVector<Pet>::element",
+                  "decoratedName": "?element@?$IteratorVector@VPet@@@@QEBAAEAVPet@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'IteratorVector<Pet>::next' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Oana/Desktop/VectorDinamicCPP/VectorDinamicCPP/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 189,
+                  "startColumn": 25,
+                  "endLine": 189,
+                  "endColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IteratorVector<Pet>::next",
+                  "decoratedName": "?next@?$IteratorVector@VPet@@@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31937.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/Oana/Desktop/VectorDinamicCPP/VectorDinamicCPP/VectorDinamic.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "f6163cf46af6bb41ba44cc29e7341fdd64c9fe2ff8be9ca42dd5b663ada5065f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/oana/desktop/vectordinamiccpp/vectordinamiccpp/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "e12a22c4b51d441e71bda9c39e0ab07799c387285416165ca505d0e6e7e2f0d8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/oana/desktop/vectordinamiccpp/vectordinamiccpp/pet.h"
+          },
+          "hashes": {
+            "sha-256": "fd14148c6196cbe4578b88d57d630f1ef8f34c34b6ed51f347fb94dfb97fec9e"
+          }
+        }
+      ]
+    }
+  ]
+}
